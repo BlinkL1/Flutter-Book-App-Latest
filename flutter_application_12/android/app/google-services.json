@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "345483270727",
+    "project_id": "questquill-e201b",
+    "storage_bucket": "questquill-e201b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:345483270727:android:1c08c363136eb14d0d2f62",
+        "android_client_info": {
+          "package_name": "com.example.flutter_application_1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAK3ERJMANNjhrP6ZXALXbaZ68gX7IlYfc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

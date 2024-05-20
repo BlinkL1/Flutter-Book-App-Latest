@@ -1,0 +1,60 @@
+name: questquill
+description: A new Flutter project.
+version: 1.0.0+1
+environment: 
+  sdk: '>=2.12.0 <3.0.0'
+dependencies:
+  pdftron_flutter: ^1.0.1-23
+  pdf_render: ^1.4.3
+  syncfusion_flutter_pdfviewer: ^23.2.7-beta
+  flutter: 
+    sdk: flutter
+  cached_network_image: ^3.2.1
+  flutter_svg: ^2.0.9
+  intl: ^0.18.0
+  firebase_core: ^2.24.0
+  firebase_auth: ^4.15.0
+  cloud_firestore: ^4.13.5
+  email_validator: ^2.1.17
+  flutter_pdfview: ^1.3.2
+  firebase_storage: ^11.5.5
+  dio: ^4.0.0
+  advance_pdf_viewer: ^2.0.0
+dev_dependencies: 
+  flutter_test: 
+    sdk: flutter
+flutter: 
+  uses-material-design: true
+  assets: 
+    - assets/images/
+    - assets/books/bof.pdf
+    - assets/books/chldck.pdf
+    - assets/books/danbrown.pdf
+    - assets/books/harry1.pdf
+    - assets/books/harry2.pdf
+    - assets/books/percy1.pdf
+    - assets/books/percy2.pdf
+    - assets/books/tolkein.pdf
+  fonts: 
+    - family: Playfair Display
+      fonts: 
+        - asset: assets/fonts/PlayfairDisplayRomanMedium.ttf
+          weight: 500
+        - asset: assets/fonts/PlayfairDisplayRomanBold.ttf
+          weight: 700
+        - asset: assets/fonts/PlayfairDisplayRomanRegular.ttf
+          weight: 400
+    - family: Lato
+      fonts: 
+        - asset: assets/fonts/LatoRegular.ttf
+          weight: 400
+        - asset: assets/fonts/LatoBold.ttf
+          weight: 700
+        - asset: assets/fonts/LatoMedium.ttf
+          weight: 500
+        - asset: assets/fonts/LatoSemiBold.ttf
+          weight: 600
+    - family: Montserrat
+      fonts: 
+        - asset: assets/fonts/MontserratMedium.ttf
+          weight: 500
